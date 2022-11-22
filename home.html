@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício</title>
+</head>
+<body>
+    <header>
+    <h1>Vamos Contar</h1>
+    <p>Este exercício você deverá colocar um número inicial e final, em "passo" adicione um número para ele pular até chegar no resultado final.</p>
+    <p>Ex: Início:1, Final:10, passo:2 = 1, 3, 5, 7, 9</p>
+    </header>
+    <section>
+    <div>
+        Início:
+        <input type="number" name="inicio" id="inicio" placeholder="Digite um número">
+    </div>
+    <div>
+        Fim:
+        <input type="number" name="fim" id="fim" placeholder="Digite um número">
+    </div>
+    <div>
+        Passo:
+        <input type="number" name="passo" id="passo" placeholder="Passo...">
+    </div>
+
+<div>
+    <input type="button" value="Contar" onclick="contar()">
+</div>
+<div id="msg">
+    <p>Preencha os campos!</p>
+</div>
+    </section>
+
+    <footer>
+        <p>&copy;Lennon Fonseca</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

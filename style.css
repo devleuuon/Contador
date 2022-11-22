@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(114, 190, 249);
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+    line-height: 40px; /*espaçamento de linhas*/
+}
+
+footer {
+    padding-top: 25px;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#msg {
+    text-align: center;
+}
